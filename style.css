@@ -2,33 +2,247 @@
 body
 {
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(97, 96, 96))
+    background: linear-gradient(to right, #8693AB, #BDD4E7 ) 
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: rgba(0, 0, 0, 0.2);
+/*-----Container-------*/
+
+      .container{
+        width: 100%;
+        min-height: 100vh;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+        overflow: hidden;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .back-gif{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: -1;
+      }
+
+      .navbar{
+        width: 95%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .icon{
+        width: 25px;
+        cursor: pointer;
+      }
+
+      .hamburger {
+        display: block;
+        cursor: pointer;
+      }
+      .hamburger .line {
+        width: 30px;
+        height: 3px;
+        background: #fefefe;
+        margin: 6px 0;
+
+      }
+
+      .menu-icon{
+        width: 25px;
+        cursor: pointer;
+      }
+
+      nav{
+        flex: 1;
+        text-align: right;
+      }
+
+      nav ul li{
+        list-style: none;
+        display: inline-block;
+        margin-right: 50px;
+      }
+      
+      
+      nav ul li a { 
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 10px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+      }
+      
+    nav ul li a:hover{
+      color: rgb(114, 114, 224);
+    }
+
+    .row{
+      display: flex;
+      justify-content: space-between;
+      align-items: center ;
+      margin: 100px 0 ;
+    }
+
+    .col-1{
+      padding: 20px, 20px;
+      color: white;
+      flex-basis: 40%;
+      position: relative;
+      margin-left: 50px;
+
+    }
+
+    .col-1 h2{
+      margin-top: 40px;
+      font-size: 54px;
+    }
+
+    .col-1 h3{
+      font-size: 30px;
+      color: #707070;
+      font-weight: 100;
+      margin: 20px 0 10px
+
+    }
+
+    .col-1 p{
+      font-size: 16px;
+      color: #b7b7b7;
+      font-weight: 100;
+    }
+
+    .col-1 h4{
+      margin: 30px 0;
+      font-size: 20px;
+    }
+
+    button{
+      width: 140px;
+      border: 0;
+      padding: 12px 10px;
+      outline: none;
+      color: #fff;
+      background: linear-gradient(to right, #8693AB, #BDD4E7 ) ;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: width 0.5s;
+
+    }
+
+    button img{
+      width: 30px;
+      display: none;
+    }
+
+    button:hover img{
+      display: block;
+    }
+
+    button:hover{
+      width: 160px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+    }
+
+    .col-1::after{
+      content: '';
+      width: 10px;
+      height: 57%;
+      background: linear-gradient(#B8C6DB, #F5F7FA);
+      position: absolute;
+      left: -40px;
+      top: 8px;
+    }
+
+    .col-2{
+      position: relative;
+      flex-basis: 60%;
+      display: flex;
+      align-items: center;
+      width: 100%;
+
+
+    }
+
+    .col-2 .jordan1{
+      width: 100%;
+    }
+
+    .color-box{
+      padding-top: 50px;
+      position: absolute;
+      right: 0;
+      top: 15;
+      background: linear-gradient(#8693AB, #BDD4E7);
+      
+      border-radius: 20px 0 0 20px;
+      height: 80%;
+      width: 60%;
+      z-index: -1;
+    }
+
+    .add-btn img{
+      width: 35px;
+      margin-bottom: 5px;
+    }
+
+    .add-btn{
+      text-align: center;
+      color:white;
+      cursor: pointer;
+    }
+
+    .social-links img{
+      height: 13px;
+      margin: 20px;
+      cursor: pointer;
+    }
+
+    .social-links{
+      text-align: center;
+    }
+
+  /*------Responsive-------*/
+
+@media only screen  and (max-width: 800px){
+  nav ul{
+    width: 100%;
+    background: linear-gradient(#ff54a2, #ff575a);
+    position: absolute;
+    top: 75px;
+    right:0;
+    z-index: 2;
+
   }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
+  nav ul li{
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
-  
-  li a:hover:not(.active) {
-    background-color: #111;
+
+  nav ul li a{
+    color: #fff;
   }
+
+  .menu-icon{
+    display: block;
+  }
+
+
   
+}
+
+
   .active {
     background-color: #04AA6D;
   }
@@ -43,3 +257,9 @@ ul {
     height: auto;
     
   }
+
+  /*----footer----*/
+
+.contact{
+  color: white;
+}
