@@ -14,7 +14,11 @@ body
 
       .back-gif{
         width: 100%;
-        z-index: -1;
+        z-index: -10;
+      }
+
+      .div-vid{
+        width: 100%;
       }
 
       .container p{
@@ -261,11 +265,6 @@ body
     width: auto;
   }
 
-  .openimg{
-    width: 100%;
-    height: auto;
-    
-  }
 
   /*----footer----*/
 
