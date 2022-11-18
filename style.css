@@ -9,20 +9,22 @@ body
 
       .container{
         width: 100%;
-        min-height: 100vh;
-        padding-left: 8%;
-        padding-right: 8%;
-        box-sizing: border-box;
-        overflow: hidden;
         font-family: 'Roboto', sans-serif;
       }
 
       .back-gif{
-        position: absolute;
-        right: 0;
-        bottom: 0;
         width: 100%;
         z-index: -1;
+      }
+
+      .container p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        color: white;
       }
 
       .navbar{
@@ -92,7 +94,7 @@ body
     }
 
     .col-1{
-      padding: 20px, 20px;
+      padding: 20px 20px;
       color: white;
       flex-basis: 40%;
       position: relative;
@@ -182,7 +184,7 @@ body
       padding-top: 50px;
       position: absolute;
       right: 0;
-      top: 15;
+      top: 15px;
       background: linear-gradient(#8693AB, #BDD4E7);
       
       border-radius: 20px 0 0 20px;
@@ -202,6 +204,12 @@ body
       cursor: pointer;
     }
 
+    .mission{
+      text-align: center;
+      color: white;
+
+    }
+
     .social-links img{
       height: 13px;
       margin: 20px;
@@ -215,6 +223,7 @@ body
   /*------Responsive-------*/
 
 @media only screen  and (max-width: 800px){
+
   nav ul{
     width: 100%;
     background: linear-gradient(#ff54a2, #ff575a);
