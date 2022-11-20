@@ -1,10 +1,17 @@
-/*----GOOGLE FONTS-----*/
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
 body
 {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to right, #8693AB, #BDD4E7 ) 
+    background: linear-gradient(to right, #8693AB, #BDD4E7 );
+    width: 100%;
 }
 
+/*-----index.html------*/
 /*-----Container-------*/
 
       .container{
@@ -15,10 +22,12 @@ body
       .back-gif{
         width: 100%;
         z-index: -10;
+        
       }
 
       .div-vid{
         width: 100%;
+        text-align: center;
       }
 
       .container p{
@@ -32,7 +41,7 @@ body
       }
 
       .navbar{
-        width: 95%;
+        width: 98%;
         position: absolute;
         top: 0;
         left: 0;
@@ -94,7 +103,7 @@ body
       display: flex;
       justify-content: space-between;
       align-items: center ;
-      margin: 100px 0 ;
+      margin: 0px 0 ;
     }
 
     .col-1{
@@ -182,6 +191,7 @@ body
 
     .col-2 .jordan1{
       width: 100%;
+      padding: 30px;
     }
 
     .color-box{
@@ -211,6 +221,10 @@ body
     .mission{
       text-align: center;
       color: white;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 30px;
 
     }
 
@@ -255,16 +269,17 @@ body
   
 }
 
+  /*-----shop.html--------*/
+  .title{
+    font-size: 40px;
+    color: white;
+    padding: 1% 1% 1% 1%;
+  }
+
 
   .active {
     background-color: #04AA6D;
   }
-
-  .intro{
-    height: 80%;
-    width: auto;
-  }
-
 
   /*----footer----*/
 
