@@ -51,6 +51,15 @@ body
         justify-content: space-between;
       }
 
+      .navbar .icon{
+        width: 7%;
+      }
+
+      .intro-text p{
+        font-size: 50px;
+        font-weight: bolder;
+      }
+
       .icon{
         width: 25px;
         cursor: pointer;
@@ -225,6 +234,8 @@ body
       margin-left: auto;
       margin-right: auto;
       font-size: 30px;
+      padding-top: 3%;
+      padding-bottom: 5%;
 
     }
 
@@ -270,15 +281,110 @@ body
 }
 
   /*-----shop.html--------*/
-  .title{
+  .shopTitle{
     font-size: 40px;
     color: white;
-    padding: 1% 1% 1% 1%;
+    padding: 1% 1% 2% 1%;
   }
 
 
   .active {
     background-color: #04AA6D;
+  }
+
+  /*-------Products--------*/
+  .companyname{
+    color: white;
+  }
+
+  .shopProducts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5%;
+    grid-row-gap: 10%;
+    padding: 3% 2% 2% 2%;
+    align-items: center;
+  }
+
+  .shopSec{
+    padding: 10px 5%;
+    z-index: -1;
+  }
+
+  .sheading{
+    text-align: center;
+    padding-top: 10px 0 30px 0;
+    color: white;
+  }
+  
+  .shopCard{
+    width: 350px;
+    height: 100%;
+    background-color: #F5F7FA;
+    box-shadow: 20px 30px 50px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+    
+  }
+
+  .shopProducts .shopCard img{
+    height: 100%;
+    width: 100%;
+
+  }
+
+
+  .shopDesc{
+    padding: 5px 20px;
+    opacity: 0.8;
+  }
+
+  .shopName{
+    font-weight: 900;
+    font-size: 20px;
+    color: #424144;
+    padding: 0 20px;
+  }
+
+  .shopBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+
+  }
+
+  .shopPrice{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .shopBtn{
+    font-size: 13px;
+    color: white;
+    padding: 10px 18px;
+    font-weight: 900 ;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .shopBtn:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+  }
+
+
+  /*--------Contact.html-----------*/
+  .ctitle{
+    font-size: 40px;
+    color: white;
+    padding: 1% 1% 1% 1%;
   }
 
   /*----footer----*/
