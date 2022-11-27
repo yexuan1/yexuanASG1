@@ -9,6 +9,10 @@ sneakysneakers is a sneaker retailer that sells limited edition sneakers at comp
 ## Design
 ### Process
 1. 
+2. update 27/11 - 3 
+- responsive footer
+- responsive product page 
+- added extra products
 
 ### Colour Scheme
 - linear-gradient(to right, #8693AB, #BDD4E7 )
