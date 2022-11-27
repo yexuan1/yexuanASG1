@@ -240,10 +240,30 @@ button:hover {
   padding: 3% 2% 2% 2%;
   align-items: center;
 }
+
+.shopcard button i {
+  width: 30px;
+  display: none;
+}
+
+
+.shopcard button:hover i {
+  display: block;
+}
+
+.shopcard button:hover {
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .shopProducts .shopCard img {
   height: 100%;
   width: 100%;
+  
 }
+
 
 .shopProducts .shopCard img:hover{
   transform: translateY(-.5rem);
