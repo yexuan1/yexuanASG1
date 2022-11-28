@@ -13,6 +13,8 @@ sneakysneakers is a sneaker retailer that sells limited edition sneakers at comp
 - responsive footer
 - responsive product page 
 - added extra products
+3. update 28/11 
+- responsive shop page and responsive home page background
 
 ### Colour Scheme
 - linear-gradient(to right, #8693AB, #BDD4E7 )
@@ -37,3 +39,4 @@ sneakysneakers is a sneaker retailer that sells limited edition sneakers at comp
 ## Credits
 ### BackGround Video
 - https://www.youtube.com/watch?v=lBpS4FXC51s
+- https://pbs.twimg.com/media/EKIfhqQXsAEx41u?format=jpg&name=medium
