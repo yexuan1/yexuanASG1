@@ -45,9 +45,8 @@ body {
   padding: 3% 3%;
 }
 
-.brand-title {
-	font-size: 25px;
-	margin: 10px;
+.brandlogo {
+	width: 20%;
 }
 
 .navbar-links ul{
@@ -79,6 +78,7 @@ body {
 	justify-content: space-between;
 	width: 30px;
 	height: 21px;
+  margin-top: 5%;
 }
 
 .toggle-button .bar{
@@ -136,6 +136,7 @@ button {
   border-radius: 6px;
   cursor: pointer;
   transition: width 0.5s;
+  text-decoration: none;
 }
 button img {
   width: 30px;
@@ -190,6 +191,7 @@ button:hover {
   color: white;
   cursor: pointer;
 }
+
 .mission {
   position: relative;
   text-align: center;
@@ -221,6 +223,8 @@ button:hover {
 .companyname {
   color: white;
 }
+
+
 .shopSec {
   margin-top: 10px;
   padding: 10px 20px;
@@ -525,7 +529,8 @@ ul {
         align-items: center;
         margin: 100px 0;
       }
-
+      
+    
       .mission_head {
         font-size: 30px;
         font-weight: 600;
@@ -577,11 +582,29 @@ ul {
     /*--------------------NAVBAR-------------------------*/
 	  
     /*-----------------INDEX--------------------------*/
+    .brandlogo {
+      width: 10%;
+    }
+
     .row{
       display: flex;
       justify-content: space-between;
       align-items: center;
       margin-top: 450px;
+    }
+
+    .intro-text {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: whitesmoke;
+      text-align: center;
+    }
+
+    .intro-text p {
+      font-size: 30px;
+      font-weight: bolder;
     }
 
     .introvid{

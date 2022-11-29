@@ -15,6 +15,8 @@ sneakysneakers is a sneaker retailer that sells limited edition sneakers at comp
 - added extra products
 3. update 28/11 
 - responsive shop page and responsive home page background
+4. update 30/11
+- updated responsive home page and nav bar
 
 ### Colour Scheme
 - linear-gradient(to right, #8693AB, #BDD4E7 )
@@ -25,7 +27,7 @@ sneakysneakers is a sneaker retailer that sells limited edition sneakers at comp
 1. Jordan 1 Low Dior
 2. Jordan 1 Chicago
 3. Jordan 1 UNC
-4. Nike Dunk Low Kentucky
+4. Nike Dunk Low Kentuckyd
 5. Nike Dunk Low Syracuse
 6. Nike Dunk Low Black White
 
