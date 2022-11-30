@@ -20,6 +20,7 @@ body {
 .introjpg
 {
   display: none;
+
 }
 
 
@@ -36,6 +37,8 @@ body {
   font-size: 50px;
   font-weight: bolder;
 }
+
+
 /* ------------------- NAVIGATION BAR ------------------ */
 .navbar {
 	display: flex;
@@ -97,8 +100,8 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 5%;
-	margin-top: 50%;
+	margin-top: 45%;
+  margin-bottom: 5%;
 }
 .col-1 {
   padding: 20px 20px;
@@ -218,6 +221,10 @@ button:hover {
 .mission_body {
   font-size: 30px;
   font-weight: 400;
+}
+
+.backpic2{
+  display: none;
 }
 /* ------------------------- SHOP ---------------------- */
 .companyname {
@@ -343,7 +350,7 @@ button:hover {
 }
 .contactContain .contactInfo {
   width: 50%;
-  display: flex;
+  display: grid;
   flex-direction: column;
 }
 .contactContain .contactInfo .cBox {
@@ -523,23 +530,94 @@ ul {
 		display: flex;
 	}
       /*-----------------INDEX--------------------------*/
-      .row{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 100px 0;
+      .brandlogo {
+        width: 25%;
       }
-      
-    
+  
+      .row{
+        flex-direction: column-reverse;
+        margin-top: 400px;
+      }
+  
+      .col-2{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+      }
+  
+      .col-2 .jordan1 {
+        width: 77%;
+      }
+      .color-box {
+        transform: translateX(20px);
+      }
+  
+      .col-1{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+      }
+  
+      .col-1 h2{
+        font-size: 35px;
+      }
+  
+      .col-1 h3{
+        font-size: 20px;
+      }
+  
+      .add-btn img {
+        width: 35px;
+        margin-bottom: 5px;
+      }
+  
+      .intro-text {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: whitesmoke;
+        text-align: center;
+      }
+  
+      .intro-text p {
+        font-size: 35px;
+        font-weight: bolder;
+      }
+  
+      .introvid{
+        display: none;
+  
+      }
+  
+      .introjpg{
+        width: 100%;
+        position: absolute;
+        z-index: -2;
+        display: unset;
+        opacity: 0.3;
+      }
+  
       .mission_head {
-        font-size: 30px;
-        font-weight: 600;
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 10px;
       }
       .mission_body {
         font-size: 20px;
-        font-weight: 400;
+        font-weight: 500;
+        width: 100%;
       }
   
+      .mission_txt{
+        width: 85%;
+      }
+  
+      .backpic{
+        display: none;
+      }
+  
+      .backpic2 {
+        display: unset;
+      }
       /*-----------------SHOP--------------------------*/
       .shopSec {
         margin-top: 10px;
@@ -547,12 +625,14 @@ ul {
         z-index: -1;
       }
       .sheading {
-        font-size: 30px;
+        text-align: center;
+        padding: 10px 0 30px 0;
+        color: white;
       }
       .shopProducts {
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 35px;
+        grid-gap: 20px;
       }
   
       .shopCard {
@@ -569,8 +649,42 @@ ul {
         font-size: 30px;
         color: white;
       }
+  
       /*---------------CONTACT---------------------*/
-
+      .contact {
+        padding: 30px;
+  
+      }
+  
+      .content{
+        width: 100%;
+      }
+  
+  
+      .contactContain .contactForm,
+      .contactContain .contactInfo{
+        width: 100%;
+      }
+  
+      .contactInfo{
+        margin-bottom: 20px;
+      }
+  
+      .contactContain{ 
+        display: grid; 
+        grid-template-columns: 1fr; 
+   
+      }
+  
+      .contact .contactUs {
+        font-size: 35px;
+        font-weight: 1000;
+      }
+      .contact .contactP {
+        font-size: 19px;
+        font-weight: 300;
+  
+      }
       /*-----------------FOOTER----------------------*/
       .footer-col {
         width: 50%;
@@ -583,14 +697,42 @@ ul {
 	  
     /*-----------------INDEX--------------------------*/
     .brandlogo {
-      width: 10%;
+      width: 27%;
     }
 
     .row{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-top: 450px;
+      flex-direction: column-reverse;
+      margin-top: 400px;
+    }
+
+    .col-2{
+      flex-basis: 100%;
+      margin-bottom: 20px;
+    }
+
+    .col-2 .jordan1 {
+      width: 77%;
+    }
+    .color-box {
+      transform: translateX(0px);
+    }
+
+    .col-1{
+      flex-basis: 100%;
+      margin-bottom: 30px;
+    }
+
+    .col-1 h2{
+      font-size: 35px;
+    }
+
+    .col-1 h3{
+      font-size: 20px;
+    }
+
+    .add-btn img {
+      width: 35px;
+      margin-bottom: 5px;
     }
 
     .intro-text {
@@ -603,7 +745,7 @@ ul {
     }
 
     .intro-text p {
-      font-size: 30px;
+      font-size: 35px;
       font-weight: bolder;
     }
 
@@ -617,15 +759,31 @@ ul {
       position: absolute;
       z-index: -2;
       display: unset;
+      opacity: 0.3;
     }
 
     .mission_head {
-      font-size: 20px;
-      font-weight: 600;
+      font-size: 40px;
+      font-weight: 800;
+      margin-bottom: 10px;
     }
     .mission_body {
-      font-size: 13px;
-      font-weight: 400;
+      font-size: 20px;
+      font-weight: 500;
+      width: 100%;
+    }
+
+    .mission_txt{
+      width: 85%;
+    }
+
+    .backpic{
+      display: none;
+    }
+
+    .backpic2 {
+      display: unset;
+      opacity: 0.1;
     }
     /*-----------------SHOP--------------------------*/
     .shopSec {
@@ -637,6 +795,7 @@ ul {
       text-align: center;
       padding: 10px 0 30px 0;
       color: white;
+      font-size: 37px;
     }
     .shopProducts {
       display: grid;
@@ -661,10 +820,38 @@ ul {
 
     /*---------------CONTACT---------------------*/
     .contact {
-      padding: 50px;
+      padding: 30px;
+
     }
-    .container {
-      flex-direction: column;
+
+    .content{
+      width: 100%;
+    }
+
+
+    .contactContain .contactForm,
+    .contactContain .contactInfo{
+      width: 100%;
+    }
+
+    .contactInfo{
+      margin-bottom: 20px;
+    }
+
+    .contactContain{ 
+      display: grid; 
+      grid-template-columns: 1fr; 
+ 
+    }
+
+    .contact .contactUs {
+      font-size: 35px;
+      font-weight: 1000;
+    }
+    .contact .contactP {
+      font-size: 19px;
+      font-weight: 300;
+
     }
     /*-----------------FOOTER----------------------*/
     .footer-col {
