@@ -1,134 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-<link
-        rel="stylesheet"
-        type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      />
-<link rel="stylesheet" href="style.css">
-<script src= "main.js" defer></script>
-<title>sneakysneakers_contact</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <title>sneakysneakers_contact</title>
 </head>
-<!----------------------BODY------------------------->
+<!--==================BODY==================-->
+
 <body>
-<!------------------- NAVIGATION BAR -------------------------->
-<!------------------------- NAVIGATION BAR ------------------------------------>
-<nav class="navbar">
-    <div class="companylogo"><a href="#"><img src="IMGs/jordan-1-icon.png" class="brandlogo"></a> 
+  <!--================= NAVIGATION BAR ==========================-->
+  <nav class="navbar">
+    <div class="companylogo">
+      <a href="#"><img src="IMGs/jordan-1-icon.png" class="brandlogo" alt=""></a>
     </div>
-    <div>
-      <h1>SneakySneakers</h1> 
+
+
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
-    
-  <a href="#" class="toggle-button">
-    <span class="bar"></span>
-    <span class="bar"></span>
-    <span class="bar"></span>
-  </a>
-  <div class="navbar-links">
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="shop.html">Shop</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </div>	
   </nav>
 
-<!-------------------------CONTENT------------------------------>
-<section class="contact">
-  <div class="content">
-    <p class="contactUs">Contact Us</p>
-    <p class="contactP">Have any Queries? Feel Free to Contact Us!</p>
-  </div>
-  <div class="contactContain">
-    <div class="contactInfo">
-      <div class="cBox">
-        <div class="cIcon"><i class="fa-brands fa-instagram"></i> </div>
-        <div class="contactText">
-          <p class="contactTextP">Instagram</p>
-          <p>@SneakySneakers</p>
+  <!--=========================CONTENT============================-->
+  <section class="contact">
+    <div class="content">
+      <h1 class="contactUs">Contact Us</h1>
+      <p class="contactP">Have any Queries? Feel Free to Contact Us!</p>
+    </div>
+    <div class="contactContain">
+      <div class="contactInfo">
+        <div class="cBox">
+          <div class="cIcon"><i class="fa-brands fa-instagram"></i> </div>
+          <div class="contactText">
+            <p class="contactTextP">Instagram</p>
+            <p>@SneakySneakers</p>
+          </div>
+        </div>
+        <div class="cBox">
+          <div class="cIcon"><i class="fa-solid fa-phone"></i></div>
+          <div class="contactText">
+            <p class="contactTextP">Phone</p>
+            <p>+65 95944344</p>
+          </div>
+        </div>
+        <div class="cBox">
+          <div class="cIcon"><i class="fa-solid fa-envelope"></i></div>
+          <div class="contactText">
+            <p class="contactTextP">Email</p>
+            <p>sneakysneaker@gmail.com</p>
+          </div>
         </div>
       </div>
-      <div class = "cBox">
-        <div class="cIcon"><i class="fa-solid fa-phone"></i></div>
-        <div class="contactText">
-          <p class="contactTextP">Phone</p>
-          <p>+65 95944344</p>
-        </div>
-      </div>
-      <div class = "cBox">
-        <div class="cIcon"><i class="fa-solid fa-envelope"></i></div>
-        <div class="contactText">
-          <p class="contactTextP">Email</p>
-          <p>sneakysneaker@gmail.com</p>
-        </div>
+      <div class="contactForm">
+        <form>
+          <p class="contactFormP">Send Message</p>
+          <div class="inputBox">
+            <input type="text" name="Name" required="required">
+            <span>Full Name</span>
+          </div>
+          <div class="inputBox">
+            <input type="text" name="Email" required="required">
+            <span>Email</span>
+          </div>
+          <div class="inputBox">
+            <textarea required="required"></textarea>
+            <span>Type your Message...</span>
+          </div>
+          <div class="inputBox">
+            <input type="submit" name="Sumbit" value="Submit">
+          </div>
+        </form>
       </div>
     </div>
-    <div class="contactForm">
-      <form>
-        <p class="contactFormP">Send Message</p>
-        <div class="inputBox">
-          <input type="text" name="" required="required">
-          <span>Full Name</span> </div>
-        <div class="inputBox">
-          <input type="text" name="" required="required">
-          <span>Email</span> </div>
-        <div class="inputBox">
-          <textarea required="required"></textarea>
-          <span>Type your Message...</span> </div>
-        <div class="inputBox">
-          <input type="submit" name="" value="Send">
-        </div>
-      </form>
-    </div>
-  </div>
-</section>
+  </section>
 
-<!--------------------------FOOTER----------------------------->
-<footer class="footer">
-  <div class="container_1">
-    <div class="row_1">
-      <div class="footer-col">
-        <h4>Home</h4>
-        <ul>
-          <li><a href="#">News</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">FW22</a></li>
-          <li><a href="#">Community</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>SneakySneakers</h4>
-        <ul>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Consignment</a></li>
-          <li><a href="#">Register</a></li>
-          <li><a href="#">Membership</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Shop</h4>
-        <ul>
-          <li><a href="#">What's new</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Apparel</a></li>
-          <li><a href="#">SneakySneakers Rewards</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Follow Us</h4>
-        <div class="social-links"> <a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-instagram"></i></a> </div>
-        <h4 class="copyright"> &copy; Ye Xuan Chua 2022. All rights reserved. </h4>
+  <!--=======================FOOTER=============================-->
+  <footer class="footer">
+    <div class="container_1">
+      <div class="row_1">
+        <div class="footer-col">
+          <h4>Home</h4>
+          <ul>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">FW22</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>SneakySneakers</h4>
+          <ul>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Consignment</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Membership</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="#">What's new</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Apparel</a></li>
+            <li><a href="#">SneakySneakers Rewards</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <div class="social-links"> <a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i
+                class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-instagram"></i></a> </div>
+          <h4 class="copyright"> &copy; Ye Xuan Chua 2022. All rights reserved. </h4>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
-</main>
+  </footer>
 </body>
+
 </html>

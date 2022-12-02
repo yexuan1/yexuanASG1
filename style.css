@@ -1,10 +1,12 @@
 @charset "utf-8";
+
 /* CSS Document */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   background: linear-gradient(to right, #8693ab, #bdd4e7);
@@ -17,8 +19,7 @@ body {
   z-index: -2;
 }
 
-.introjpg
-{
+.introjpg {
   display: none;
 
 }
@@ -41,54 +42,54 @@ body {
 
 /* ------------------- NAVIGATION BAR ------------------ */
 .navbar {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	color: white;
-  padding: 3% 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 1% 3%;
 }
 
 .brandlogo {
-	width: 20%;
+  width: 20%;
 }
 
-.navbar-links ul{
-	margin: 0;
-	padding: 0;
-	display: flex;
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .navbar-links li {
-	list-style: none;
+  list-style: none;
 }
 
 .navbar-links li a {
-	text-decoration: none;
-	color: white;
-	padding: 30px;
-	display: block;
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  display: block;
   font-size: 20px;
 }
 
 
 
 .toggle-button {
-	position: absolute;
-	top: 12px;
-	right: 16px;
-	display: none;
-	flex-direction: column;
-	justify-content: space-between;
-	width: 30px;
-	height: 21px;
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
   margin-top: 5%;
 }
 
-.toggle-button .bar{
-	height: 3px;
-	width: 100%;
-	background-color: white;
-	border-radius: 10px;
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
 }
 
 nav ul li a:hover {
@@ -100,9 +101,10 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-	margin-top: 45%;
+  margin-top: 45%;
   margin-bottom: 5%;
 }
+
 .col-1 {
   padding: 20px 20px;
   color: white;
@@ -110,25 +112,30 @@ nav ul li a:hover {
   position: relative;
   margin-left: 50px;
 }
+
 .col-1 h2 {
   margin-top: 40px;
   font-size: 54px;
 }
+
 .col-1 h3 {
   font-size: 30px;
   color: #707070;
   font-weight: 100;
   margin: 20px 0 10px;
 }
+
 .col-1 p {
   font-size: 16px;
   color: #b7b7b7;
   font-weight: 100;
 }
+
 .col-1 h4 {
   margin: 30px 0;
   font-size: 20px;
 }
+
 button {
   width: 140px;
   border: 0;
@@ -141,19 +148,23 @@ button {
   transition: width 0.5s;
   text-decoration: none;
 }
+
 button img {
   width: 30px;
   display: none;
 }
+
 button:hover img {
   display: block;
 }
+
 button:hover {
   width: 160px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .col-1::after {
   content: "";
   width: 10px;
@@ -163,6 +174,7 @@ button:hover {
   left: -40px;
   top: 8px;
 }
+
 .col-2 {
   position: relative;
   flex-basis: 60%;
@@ -170,10 +182,12 @@ button:hover {
   align-items: center;
   width: 100%;
 }
+
 .col-2 .jordan1 {
   width: 100%;
   padding: 30px;
 }
+
 .color-box {
   padding-top: 7%;
   position: absolute;
@@ -185,10 +199,12 @@ button:hover {
   width: 60%;
   z-index: -1;
 }
+
 .add-btn img {
   width: 35px;
   margin-bottom: 5px;
 }
+
 .add-btn {
   text-align: center;
   color: white;
@@ -200,6 +216,7 @@ button:hover {
   text-align: center;
   max-height: 100%;
 }
+
 .mission img {
   width: 100%;
   height: 100%;
@@ -207,6 +224,7 @@ button:hover {
   opacity: 0.6;
   margin-bottom: -4px;
 }
+
 .mission_txt {
   position: absolute;
   top: 50%;
@@ -214,18 +232,21 @@ button:hover {
   transform: translate(-50%, -50%);
   color: whitesmoke;
 }
+
 .mission_head {
   font-size: 50px;
   font-weight: 600;
 }
+
 .mission_body {
   font-size: 30px;
   font-weight: 400;
 }
 
-.backpic2{
+.backpic2 {
   display: none;
 }
+
 /* ------------------------- SHOP ---------------------- */
 .companyname {
   color: white;
@@ -234,43 +255,50 @@ button:hover {
 
 .shopSec {
   margin-top: 10px;
-  padding: 10px 20px;
-  padding-bottom: 7%;
   font-size: 30px;
+  margin-bottom: 12%;
   z-index: -1;
 }
+
 .sheading {
   text-align: center;
-  padding: 10px 0 30px 0;
+  padding: 0 0 30px 0;
   color: white;
 }
+
 .shopProducts {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5%;
   padding: 3% 3% 3% 3%;
   align-items: center;
 }
+
 .shopBox button i {
   width: 30px;
   display: none;
 }
+
 .shopBox button:hover i {
   display: block;
 }
+
 .shopcard button:hover {
   width: 160px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .shopProducts .shopCard img {
   height: 80%;
   width: 100%;
 }
+
 .shopProducts .shopCard img:hover {
   transform: translateY(-.5rem);
 }
+
 .shopCard {
   width: 350px;
   height: 100%;
@@ -281,16 +309,19 @@ button:hover {
   padding-bottom: 2%;
   margin: 0 auto 20px auto;
 }
+
 .shopDesc {
   padding: 5px 20px;
   opacity: 0.8;
 }
+
 .shopName {
   font-weight: 900;
   font-size: 20px;
   color: #424144;
   padding: 0 20px;
 }
+
 .shopBox {
   display: flex;
   justify-content: space-between;
@@ -299,11 +330,13 @@ button:hover {
   font-size: 30px;
   color: white;
 }
+
 .shopPrice {
   color: red;
   font-size: 20px;
   font-weight: bold;
 }
+
 /*.shopBtn { 
  font-size: 13px; 
  color: white; 
@@ -323,7 +356,7 @@ button:hover {
   align-items: center;
   flex-direction: column;
   color: white;
-	margin-top: 1%;
+  margin-top: 1%;
   margin-bottom: 4%;
 }
 
@@ -333,14 +366,17 @@ button:hover {
   text-align: center;
   padding-bottom: 2%;
 }
+
 .contact .contactUs {
   font-size: 40px;
   font-weight: 1000;
 }
+
 .contact .contactP {
   font-size: 25px;
   font-weight: 300;
 }
+
 .contactContain {
   width: 100%;
   display: flex;
@@ -348,16 +384,19 @@ button:hover {
   align-items: center;
   margin-top: 30px;
 }
+
 .contactContain .contactInfo {
   width: 50%;
   display: grid;
   flex-direction: column;
 }
+
 .contactContain .contactInfo .cBox {
   position: relative;
   padding: 20px 0;
   display: flex;
 }
+
 .contactContain .contactInfo .cBox .cIcon {
   min-width: 60px;
   height: 60px;
@@ -368,32 +407,39 @@ button:hover {
   border-radius: 50%;
   font-size: 22px;
 }
+
 .contactContain .contactInfo .cBox .contactText {
   display: flex;
   margin-left: 20px;
-  font-size: 16px;
+  font-size: 20px;
   flex-direction: column;
   font-weight: 300;
 }
+
 .contactContain .contactInfo .cBox .contactText .contactTextP {
   font-weight: 700;
 }
+
 .contactForm {
   width: 40%;
   padding: 5%;
   background: white;
 }
+
 .contactForm .contactFormP {
   font-size: 30px;
   font-weight: 800;
   color: black;
 }
+
 .contactForm .inputBox {
   position: relative;
   width: 100%;
   margin-top: 10px;
 }
-.contactForm .inputBox input, .contactForm .inputBox textarea {
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
   width: 100%;
   padding: 5px 0;
   font-size: 16px;
@@ -403,6 +449,7 @@ button:hover {
   outline: none;
   resize: none;
 }
+
 .contactForm .inputBox span {
   position: absolute;
   left: 0;
@@ -413,33 +460,42 @@ button:hover {
   transition: 0.5s;
   color: #666;
 }
-.contactForm .inputBox input:focus ~ span, .contactForm .inputBox input:valid ~ span, .contactForm .inputBox textarea:focus ~ span, .contactForm .inputBox textarea:valid ~ span {
+
+.contactForm .inputBox input:focus~span,
+.contactForm .inputBox input:valid~span,
+.contactForm .inputBox textarea:focus~span,
+.contactForm .inputBox textarea:valid~span {
   color: #e91e63;
   font-size: 12px;
   transform: translateY(-20px);
 }
+
 .contactForm .inputBox input[type="submit"] {
   width: 100px;
-  background: #00bcd4;
+  background: rgb(85, 187, 227);
   color: white;
   border: none;
   cursor: pointer;
   padding: 10px;
   font-size: 18px;
 }
+
 /*-----------------------CONTACT END------------------------------*/
 /* --------------------- FOOTER ----------------------------- */
 ul {
   list-style: none;
 }
+
 .footer {
   padding: 50px 0;
   background-color: #696969;
 }
+
 .footer-col {
   width: 25%;
   padding: 0 15px;
 }
+
 .footer-col h4 {
   font-size: 18px;
   text-transform: capitalize;
@@ -448,6 +504,7 @@ ul {
   position: relative;
   color: white;
 }
+
 .footer-col h4::before {
   content: "";
   position: absolute;
@@ -458,9 +515,11 @@ ul {
   background-color: white;
   width: 50px;
 }
+
 .footer-col ul li:not(:last-child) {
   margin-bottom: 10px;
 }
+
 .footer-col ul li a {
   font-size: 16px;
   text-transform: capitalize;
@@ -471,10 +530,12 @@ ul {
   display: block;
   transition: all 0.3s ease;
 }
+
 .footer-col ul li a:hover {
   color: #ffffff;
   padding-left: 10px;
 }
+
 .footer-col .social-links a {
   display: inline-block;
   height: 40px;
@@ -487,377 +548,428 @@ ul {
   color: white;
   transition: all 0.5s ease;
 }
+
 .footer-col .social-links a:hover {
   color: #24262b;
   background-color: #ffffff;
 }
+
 .copyright {
   color: #bbbbbb;
 }
+
 .row_1 {
   display: flex;
   flex-wrap: wrap;
 }
+
+/*========== SCROLL UP ==========*/
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  background-color: var(--first-color);
+  opacity: .8;
+  padding: 0 .3rem;
+  border-radius: .4rem;
+  z-index: var(--z-tooltip);
+  transition: .4s;
+}
+
+
+.scrollup:hover {
+  background-color: var(--first-color-alt);
+  transform: scale(1.125);
+}
+
+.scrollup__icon {
+  font-size: 1.5rem;
+  color: #FFF;
+}
+
+.show-scroll {
+  bottom: 5rem;
+}
+
 /* --------------------- RESPONSIVE ----------------------------- */
 @media only screen and (max-width: 767px) {
-.toggle-button {
-		  display: flex;
-	  }
-	  
-	  .navbar-links {
-		  display: none;
-		  width: 100%;
-		  background: linear-gradient(to right, #8693ab, #bdd4e7);
-	  }
-	.navbar {
-		flex-direction: column;
-		align-items: flex-start;
-	}
-	
-	.navbar-links ul {
-		flex-direction: column;
-		width: 100%;
-	}
-	.navbar-links li {
-		text-align: center;
-	}
-	
-	.navbar-links li a {
-		padding: 8px 16px;
-	}
-	
-	.navbar-links.active {
-		display: flex;
-	}
-      /*-----------------INDEX--------------------------*/
-      .brandlogo {
-        width: 25%;
-      }
-  
-      .row{
-        flex-direction: column-reverse;
-        margin-top: 400px;
-      }
-  
-      .col-2{
-        flex-basis: 100%;
-        margin-bottom: 20px;
-      }
-  
-      .col-2 .jordan1 {
-        width: 77%;
-      }
-      .color-box {
-        transform: translateX(20px);
-      }
-  
-      .col-1{
-        flex-basis: 100%;
-        margin-bottom: 30px;
-      }
-  
-      .col-1 h2{
-        font-size: 35px;
-      }
-  
-      .col-1 h3{
-        font-size: 20px;
-      }
-  
-      .add-btn img {
-        width: 35px;
-        margin-bottom: 5px;
-      }
-  
-      .intro-text {
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: whitesmoke;
-        text-align: center;
-      }
-  
-      .intro-text p {
-        font-size: 35px;
-        font-weight: bolder;
-      }
-  
-      .introvid{
-        display: none;
-  
-      }
-  
-      .introjpg{
-        width: 100%;
-        position: absolute;
-        z-index: -2;
-        display: unset;
-        opacity: 0.3;
-      }
-  
-      .mission_head {
-        font-size: 40px;
-        font-weight: 800;
-        margin-bottom: 10px;
-      }
-      .mission_body {
-        font-size: 20px;
-        font-weight: 500;
-        width: 100%;
-      }
-  
-      .mission_txt{
-        width: 85%;
-      }
-  
-      .backpic{
-        display: none;
-      }
-  
-      .backpic2 {
-        display: unset;
-      }
-      /*-----------------SHOP--------------------------*/
-      .shopSec {
-        margin-top: 10px;
-        padding-bottom: 7%;
-        z-index: -1;
-      }
-      .sheading {
-        text-align: center;
-        padding: 10px 0 30px 0;
-        color: white;
-      }
-      .shopProducts {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-      }
-  
-      .shopCard {
-        height: 100%;
-        width: 100%;
-  
-      }
-  
-      .shopBox {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-        font-size: 30px;
-        color: white;
-      }
-  
-      /*---------------CONTACT---------------------*/
-      .contact {
-        padding: 30px;
-  
-      }
-  
-      .content{
-        width: 100%;
-      }
-  
-  
-      .contactContain .contactForm,
-      .contactContain .contactInfo{
-        width: 100%;
-      }
-  
-      .contactInfo{
-        margin-bottom: 20px;
-      }
-  
-      .contactContain{ 
-        display: grid; 
-        grid-template-columns: 1fr; 
-   
-      }
-  
-      .contact .contactUs {
-        font-size: 35px;
-        font-weight: 1000;
-      }
-      .contact .contactP {
-        font-size: 19px;
-        font-weight: 300;
-  
-      }
-      /*-----------------FOOTER----------------------*/
-      .footer-col {
-        width: 50%;
-        margin-bottom: 30px;
-      }
-
-}
-  @media only screen and (max-width: 400px) {
-    /*--------------------NAVBAR-------------------------*/
-	  
-    /*-----------------INDEX--------------------------*/
-    .brandlogo {
-      width: 27%;
-    }
-
-    .row{
-      flex-direction: column-reverse;
-      margin-top: 400px;
-    }
-
-    .col-2{
-      flex-basis: 100%;
-      margin-bottom: 20px;
-    }
-
-    .col-2 .jordan1 {
-      width: 77%;
-    }
-    .color-box {
-      transform: translateX(0px);
-    }
-
-    .col-1{
-      flex-basis: 100%;
-      margin-bottom: 30px;
-    }
-
-    .col-1 h2{
-      font-size: 35px;
-    }
-
-    .col-1 h3{
-      font-size: 20px;
-    }
-
-    .add-btn img {
-      width: 35px;
-      margin-bottom: 5px;
-    }
-
-    .intro-text {
-      position: absolute;
-      top: 30%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: whitesmoke;
-      text-align: center;
-    }
-
-    .intro-text p {
-      font-size: 35px;
-      font-weight: bolder;
-    }
-
-    .introvid{
-      display: none;
-
-    }
-
-    .introjpg{
-      width: 100%;
-      position: absolute;
-      z-index: -2;
-      display: unset;
-      opacity: 0.3;
-    }
-
-    .mission_head {
-      font-size: 40px;
-      font-weight: 800;
-      margin-bottom: 10px;
-    }
-    .mission_body {
-      font-size: 20px;
-      font-weight: 500;
-      width: 100%;
-    }
-
-    .mission_txt{
-      width: 85%;
-    }
-
-    .backpic{
-      display: none;
-    }
-
-    .backpic2 {
-      display: unset;
-      opacity: 0.1;
-    }
-    /*-----------------SHOP--------------------------*/
-    .shopSec {
-      margin-top: 10px;
-      padding-bottom: 7%;
-      z-index: -1;
-    }
-    .sheading {
-      text-align: center;
-      padding: 10px 0 30px 0;
-      color: white;
-      font-size: 37px;
-    }
-    .shopProducts {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-gap: 20px;
-    }
-
-    .shopCard {
-      height: 100%;
-      width: 100%;
-
-    }
-
-    .shopBox {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px;
-      font-size: 30px;
-      color: white;
-    }
-
-    /*---------------CONTACT---------------------*/
-    .contact {
-      padding: 30px;
-
-    }
-
-    .content{
-      width: 100%;
-    }
-
-
-    .contactContain .contactForm,
-    .contactContain .contactInfo{
-      width: 100%;
-    }
-
-    .contactInfo{
-      margin-bottom: 20px;
-    }
-
-    .contactContain{ 
-      display: grid; 
-      grid-template-columns: 1fr; 
- 
-    }
-
-    .contact .contactUs {
-      font-size: 35px;
-      font-weight: 1000;
-    }
-    .contact .contactP {
-      font-size: 19px;
-      font-weight: 300;
-
-    }
-    /*-----------------FOOTER----------------------*/
-    .footer-col {
-      width: 50%;
-      margin-bottom: 30px;
-    }
-    /*-----------------------------RESPONSIVE END-----------------------------------------*/
+  .toggle-button {
+    display: flex;
   }
 
+  .navbar-links {
+    display: none;
+    width: 100%;
+    background: linear-gradient(to right, #8693ab, #bdd4e7);
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-links li {
+    text-align: center;
+  }
+
+  .navbar-links li a {
+    padding: 8px 16px;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  /*-----------------INDEX--------------------------*/
+  .brandlogo {
+    width: 25%;
+  }
+
+  .row {
+    flex-direction: column-reverse;
+    margin-top: 400px;
+  }
+
+  .col-2 {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  .col-2 .jordan1 {
+    width: 77%;
+  }
+
+  .color-box {
+    transform: translateX(20px);
+  }
+
+  .col-1 {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+
+  .col-1 h2 {
+    font-size: 35px;
+  }
+
+  .col-1 h3 {
+    font-size: 20px;
+  }
+
+  .add-btn img {
+    width: 35px;
+    margin-bottom: 5px;
+  }
+
+  .intro-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  .intro-text p {
+    font-size: 35px;
+    font-weight: bolder;
+  }
+
+  .introvid {
+    display: none;
+
+  }
+
+  .introjpg {
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    display: unset;
+    opacity: 0.3;
+  }
+
+  .mission_head {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+
+  .mission_body {
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+  }
+
+  .mission_txt {
+    width: 85%;
+  }
+
+  .backpic {
+    display: none;
+  }
+
+  .backpic2 {
+    display: unset;
+  }
+
+  /*-----------------SHOP--------------------------*/
+  .shopSec {
+    margin-top: 10px;
+    padding-bottom: 7%;
+    z-index: -1;
+  }
+
+  .sheading {
+    text-align: center;
+    padding: 10px 0 30px 0;
+    color: white;
+  }
+
+  .shopProducts {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .shopCard {
+    height: 100%;
+    width: 100%;
+
+  }
+
+  .shopBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+  }
+
+  /*---------------CONTACT---------------------*/
+  .contact {
+    padding: 30px;
+
+  }
+
+  .content {
+    width: 100%;
+  }
+
+
+  .contactContain .contactForm,
+  .contactContain .contactInfo {
+    width: 100%;
+  }
+
+  .contactInfo {
+    margin-bottom: 20px;
+  }
+
+  .contactContain {
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+
+  .contact .contactUs {
+    font-size: 35px;
+    font-weight: 1000;
+  }
+
+  .contact .contactP {
+    font-size: 19px;
+    font-weight: 300;
+
+  }
+
+  /*-----------------FOOTER----------------------*/
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+  /*--------------------NAVBAR-------------------------*/
+
+  /*-----------------INDEX--------------------------*/
+  .brandlogo {
+    width: 25%;
+
+  }
+
+  .row {
+    flex-direction: column-reverse;
+    margin-top: 400px;
+  }
+
+  .col-2 {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  .col-2 .jordan1 {
+    width: 77%;
+  }
+
+  .color-box {
+    transform: translateX(0px);
+  }
+
+  .col-1 {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+
+  .col-1 h2 {
+    font-size: 35px;
+  }
+
+  .col-1 h3 {
+    font-size: 20px;
+  }
+
+  .add-btn img {
+    width: 35px;
+    margin-bottom: 5px;
+  }
+
+  .intro-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  .intro-text p {
+    font-size: 35px;
+    font-weight: bolder;
+  }
+
+  .introvid {
+    display: none;
+
+  }
+
+  .introjpg {
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    display: unset;
+    opacity: 0.3;
+  }
+
+  .mission_head {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+
+  .mission_body {
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+  }
+
+  .mission_txt {
+    width: 85%;
+  }
+
+  .backpic {
+    display: none;
+  }
+
+  .backpic2 {
+    display: unset;
+    opacity: 0.1;
+  }
+
+  /*-----------------SHOP--------------------------*/
+  .shopSec {
+    margin-top: 10px;
+    padding-bottom: 7%;
+    z-index: -1;
+  }
+
+  .sheading {
+    text-align: center;
+    padding: 10px 0 30px 0;
+    color: white;
+    font-size: 37px;
+  }
+
+  .shopProducts {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .shopCard {
+    height: 100%;
+    width: 100%;
+
+  }
+
+  .shopBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+  }
+
+  /*---------------CONTACT---------------------*/
+  .contact {
+    padding: 30px;
+
+  }
+
+  .content {
+    width: 100%;
+  }
+
+
+  .contactContain .contactForm,
+  .contactContain .contactInfo {
+    width: 100%;
+  }
+
+  .contactInfo {
+    margin-bottom: 20px;
+  }
+
+  .contactContain {
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+
+  .contact .contactUs {
+    font-size: 35px;
+    font-weight: 1000;
+  }
+
+  .contact .contactP {
+    font-size: 19px;
+    font-weight: 300;
+
+  }
+
+  /*-----------------FOOTER----------------------*/
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  /*-----------------------------RESPONSIVE END-----------------------------------------*/
+}

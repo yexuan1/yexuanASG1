@@ -1,5 +1,5 @@
 # sneakysneakers
-sneakysneakers is a sneaker retailer that sells limited edition sneakers at competitive prices. We aim to provide customers with only 100% authentic sneakers for the community and support the local sneaker community.
+sneakysneakers is a fictional sneaker retailer that sells limited edition sneakers at competitive prices. We aim to provide customers with only 100% authentic sneakers for the community and support the local sneaker community. SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling account SneakySnickers.
 
 ## Website Pages & Features
 ## - Home
@@ -19,6 +19,9 @@ sneakysneakers is a sneaker retailer that sells limited edition sneakers at comp
 - updated responsive home page and nav bar
 5. update 1/12 - 1
 - updated home page mobile responsive and contact page mobile responsive
+6. update 2/12 
+- fixed html validator errors 
+- improved contact page
 
 ### Colour Scheme
 - linear-gradient(to right, #8693AB, #BDD4E7 )
@@ -41,6 +44,11 @@ sneakysneakers is a sneaker retailer that sells limited edition sneakers at comp
 5. Adobe Photoshop
 
 ## Credits
+
+### Sneaker Images
+
+### Background Images
+
 ### BackGround Video
 - https://www.youtube.com/watch?v=lBpS4FXC51s
 - https://pbs.twimg.com/media/EKIfhqQXsAEx41u?format=jpg&name=medium
