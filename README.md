@@ -49,6 +49,9 @@ SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling ac
 6. update 3/12
 - fixed responsive details and finalised README
 - finalised wireframe details
+7. update 4/12
+- Finalized all components
+- Added Walkthrough Video
 
 ### Colour Scheme
 - linear-gradient(to right, #8693AB, #BDD4E7 )
