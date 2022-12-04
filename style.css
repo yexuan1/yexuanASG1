@@ -75,7 +75,7 @@ body {
 
 .toggle-button {
   position: absolute;
-  top: 12px;
+  top: 16px;
   right: 16px;
   display: none;
   flex-direction: column;
@@ -101,8 +101,8 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 45%;
-  margin-bottom: 5%;
+  margin-top: 50%;
+  text-decoration: none;
 }
 
 .col-1 {
@@ -152,6 +152,7 @@ button {
 button img {
   width: 30px;
   display: none;
+  text-decoration: none;
 }
 
 button:hover img {
@@ -163,6 +164,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-decoration: none;
 }
 
 .col-1::after {
@@ -173,6 +175,7 @@ button:hover {
   position: absolute;
   left: -40px;
   top: 8px;
+  text-decoration: none;
 }
 
 .col-2 {
@@ -189,7 +192,7 @@ button:hover {
 }
 
 .color-box {
-  padding-top: 7%;
+  padding-top: 5%;
   position: absolute;
   right: 0;
   top: 15px;
@@ -337,15 +340,7 @@ button:hover {
   font-weight: bold;
 }
 
-/*.shopBtn { 
- font-size: 13px; 
- color: white; 
- padding: 10px 18px; 
- font-weight: 900; 
- border: 1px solid grey; 
- border-radius: 20px; 
- background-color: white; 
-}*/
+
 /*------------------------CONTACT-------------------------*/
 
 .contact {
@@ -618,7 +613,7 @@ ul {
   }
 
   .navbar-links li a {
-    padding: 8px 16px;
+    padding: 7px 14px;
   }
 
   .navbar-links.active {
@@ -627,12 +622,12 @@ ul {
 
   /*-----------------INDEX--------------------------*/
   .brandlogo {
-    width: 25%;
+    width: 30%;
   }
 
   .row {
     flex-direction: column-reverse;
-    margin-top: 400px;
+    margin-top: 500px;
   }
 
   .col-2 {
@@ -645,7 +640,7 @@ ul {
   }
 
   .color-box {
-    transform: translateX(20px);
+    transform: translateX(0px);
   }
 
   .col-1 {
@@ -801,13 +796,14 @@ ul {
 
   /*-----------------INDEX--------------------------*/
   .brandlogo {
-    width: 25%;
+    width: 27%;
 
   }
 
   .row {
     flex-direction: column-reverse;
-    margin-top: 400px;
+    margin-top: 425px;
+
   }
 
   .col-2 {
@@ -851,7 +847,7 @@ ul {
   }
 
   .intro-text p {
-    font-size: 35px;
+    font-size: 32px;
     font-weight: bolder;
   }
 
@@ -946,6 +942,14 @@ ul {
 
   .contactInfo {
     margin-bottom: 20px;
+  }
+
+  .contactContain .contactInfo .cBox .contactText {
+    display: flex;
+    margin-left: 20px;
+    font-size: 18px;
+    flex-direction: column;
+    font-weight: 300;
   }
 
   .contactContain {
